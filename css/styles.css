@@ -2,8 +2,16 @@
 YOUR STYLES
 *******************/
 
+var pattern = Trianglify({
+  height: 300,
+  width: 300,
+  cell_size: 40});
 
+document.body.appendChild(pattern.canvas());
 
+body {
+    background: Trianglify;
+}
 
 /********************
 MEDIA QUERIES
